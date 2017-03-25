@@ -1,0 +1,140 @@
+html {
+  background: url(../images/forest.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+}
+
+#logo img {
+  padding-left: 20px;
+  height: auto;
+  max-width: 25%;
+}
+
+[role=navigation] {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+[role=navigation] ul {
+  border-right: 5px solid #1fb6ff;
+  text-align: right;
+  list-style: none;
+}
+[role=navigation] ul li {
+  padding: 10px 0;
+}
+
+
+[role=navigation] ul li a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+#kontakt {
+  background-color: rgba(38, 50, 56, 0.7);
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+#kontakt .content {
+  padding: 100px 0px 70px 0px;
+  text-align: center;
+}
+
+#kontakt h3 {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+/* Navn */
+#kontakt h3:first-child {
+  border-bottom: 10px solid #1fb6ff;
+  padding-bottom: 15px;
+}
+
+/* Tlf nummer */
+#kontakt h3:nth-child(3) {
+  margin: 0 0 10px 0;
+}
+
+/* E-post */
+#kontakt h4 {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+#kontakt .content div {
+  display: inline-block;
+}
+
+/* Icons */
+#kontakt span {
+  width: 50px;
+  height: 45px;
+  border-radius: 25px;
+  display: inline-block;
+  margin: 0 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#kontakt span a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Facebook icon */
+#kontakt span:first-child {
+  background-color: #16619c;
+}
+
+/* Twitter icon */
+#kontakt span:nth-child(2) {
+  background-color: #00b0ff;
+}
+
+/* LinkedIn icon */
+#kontakt span:nth-child(3) {
+  background-color: #1d87da
+}
+
+
+/* Devices with width larger than 1200px */
+@media screen and (min-width: 1200px) {
+    #logo img {
+      padding-left: 75px;
+    }
+    [role=navigation] {
+      right: 75px;
+      top: 70px;
+    }
+    [role=navigation] ul li a {
+      font-size: 3rem;
+    }
+    #kontakt {
+        max-width: 750px;
+        margin-top: 40px;
+    }
+    #kontakt .content {
+      padding: 100px 280px 70px 0px;
+      text-align: right;
+    }
+}
